@@ -26,7 +26,7 @@ class Ara:
             else:
                 x += 1
     def mobile(self, kelime, hedefsite):
-        ua_dir = (os.getcwd() + "/user-agents-desktop.txt")
+        ua_dir = (os.getcwd() + "/user-agents-mobile.txt")
         with open(ua_dir, "r") as agents:
             agent = random.choice(agents.readlines())
             a = agent.strip()
